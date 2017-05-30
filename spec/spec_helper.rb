@@ -8,17 +8,16 @@ require 'vcr'
 
 # Setup the initial description file request
 WebMock.stub_request(:get, ENV['OPENSEARCH_DESCRIPTION_URL']).
-  with(:headers => {'Accept'=>['*/*', 'application/opensearchdescription+xml'], 'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3', 'User-Agent'=>'Ruby'}).
   to_return(:status => 200, :body => "<?xml version=\"1.0\"?>\r\n<OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\">\r\n
   \ <ShortName>os test</ShortName>\r\n  <Description>test for os</Description>\r\n
   \ <Url template=\"https://api20170418155059.azure-api.net/search/?q={searchTerms}&amp;start={startPage?}\"
         type=\"application/atom+xml\" />\r\n</OpenSearchDescription>", :headers => {})
 
-require File.join(File.dirname(__FILE__), '..', 'search.rb')
-require File.join(File.dirname(__FILE__), '..', 'helpers/pagination.rb')
+require File.join(File.dirname(__FILE__), '..', 'lib', 'parliament', 'search.rb')
+require File.join(File.dirname(__FILE__), '..', 'lib', 'parliament', 'search', 'helpers', 'pagination.rb')
 
 def app
-  Search.new
+  Parliament::Search::Application.new
 end
 
 VCR.configure do |config|

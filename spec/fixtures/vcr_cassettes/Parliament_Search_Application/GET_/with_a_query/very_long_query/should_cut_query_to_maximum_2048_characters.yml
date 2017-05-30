@@ -1,0 +1,40 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api20170418155059.azure-api.net/search/?q=Lorem%20ipsum%20dolor%20sit%20amet,%20consectetuer%20adipiscing%20elit.%20Aenean%20commodo%20ligula%20eget%20dolor.%20Aenean%20massa.%20Cum%20sociis%20natoque%20penatibus%20et%20magnis%20dis%20parturient%20montes,%20nascetur%20ridiculus%20mus.%20Donec%20quam%20felis,%20ultricies%20nec,%20pellentesque%20eu,%20pretium%20quis,%20sem.%20Nulla%20consequat%20massa%20quis%20enim.%20Donec%20pede%20justo,%20fringilla%20vel,%20aliquet%20nec,%20vulputate%20eget,%20arcu.%20In%20enim%20justo,%20rhoncus%20ut,%20imperdiet%20a,%20venenatis%20vitae,%20justo.%20Nullam%20dictum%20felis%20eu%20pede%20mollis%20pretium.%20Integer%20tincidunt.%20Cras%20dapibus.%20Vivamus%20elementum%20semper%20nisi.%20Aenean%20vulputate%20eleifend%20tellus.%20Aenean%20leo%20ligula,%20porttitor%20eu,%20consequat%20vitae,%20eleifend%20ac,%20enim.%20Aliquam%20lorem%20ante,%20dapibus%20in,%20viverra%20quis,%20feugiat%20a,%20tellus.%20Phasellus%20viverra%20nulla%20ut%20metus%20varius%20laoreet.%20Quisque%20rutrum.%20Aenean%20imperdiet.%20Etiam%20ultricies%20nisi%20vel%20augue.%20Curabitur%20ullamcorper%20ultricies%20nisi.%20Nam%20eget%20dui.%20Etiam%20rhoncus.%20Maecenas%20tempus,%20tellus%20eget%20condimentum%20rhoncus,%20sem%20quam%20semper%20libero,%20sit%20amet%20adipiscing%20sem%20neque%20sed%20ipsum.%20Nam%20quam%20nunc,%20blandit%20vel,%20luctus%20pulvinar,%20hendrerit%20id,%20lorem.%20Maecenas%20nec%20odio%20et%20ante%20tincidunt%20tempus.%20Donec%20vitae%20sapien%20ut%20libero%20venenatis%20faucibus.%20Nullam%20quis%20ante.%20Etiam%20sit%20amet%20orci%20eget%20eros%20faucibus%20tincidunt.%20Duis%20leo.%20Sed%20fringilla%20mauris%20sit%20amet%20nibh.%20Donec%20sodales%20sagittis%20magna.%20Sed%20consequat,%20leo%20eget%20bibendum%20sodales,%20augue%20velit%20cursus%20nunc,%20quis%20gravida%20magna%20mi%20a%20libero.%20Fusce%20vulputate%20eleifend%20sapien.%20Vestibulum%20purus%20quam,%20scelerisque%20ut,%20mollis%20sed,%20nonummy%20id,%20metus.%20Nullam%20accumsan%20lorem%20in%20dui.%20Cras%20ultricies%20mi%20eu%20turpis%20hendrerit%20fringilla.%20Vestibulum%20ante%20ipsum%20primis%20in%20faucibus%20orci%20luctus%20et%20ultrices%20posuere%20cubilia%20Curae%3B%20In%20ac%20dui%20quis%20mi%20consectetuer%20lacinia.%20Nam%20pretium%20turpis%20et%20arcu.%20Duis%20arcu%20tortor,%20suscipit%20eget,%20imperdiet%20nec,%20imperdiet%20iaculis,%20ipsum.%20Sed%20aliquam%20ultrices%20mauris.%20Integer%20ante%20arcu,%20accumsan%20a,%20consectetuer%20eget,%20posuere%20ut,%20mauris.%20Praesent%20adipiscing.%20Phasellus%20ullamcorper%20ips&start=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      - application/atom+xml
+      User-Agent:
+      - Ruby
+      Ocp-Apim-Subscription-Key:
+      - 91d718ce4f074924a12fb8da0959f502
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Length:
+      - '103'
+      Content-Type:
+      - text/html
+      Set-Cookie:
+      - ARRAffinity=9db3f02a32b1f6ccb0b1ec4a2b0d71fe64351b6d3571cc936313fc29cf6e64af;Path=/;Domain=20170418155059search.azurewebsites.net
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Tue, 09 May 2017 20:45:08 GMT
+    body:
+      encoding: UTF-8
+      string: The resource you are looking for has been removed, had its name changed,
+        or is temporarily unavailable.
+    http_version: 
+  recorded_at: Tue, 09 May 2017 20:45:13 GMT
+recorded_with: VCR 2.9.3

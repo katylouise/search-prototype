@@ -1,0 +1,114 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api20170418155059.azure-api.net/search/?q=alert(document.cookie)&start=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      - application/atom+xml
+      User-Agent:
+      - Ruby
+      Ocp-Apim-Subscription-Key:
+      - 7010a4b704fa4e9580c900922dccafd5
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '2036'
+      Content-Type:
+      - application/atom+xml
+      Expires:
+      - "-1"
+      Vary:
+      - Accept-Encoding
+      Set-Cookie:
+      - ARRAffinity=2341b754ef97daa69db43f3b1555b5c9df8f30bc228f0c2a8a16f7cda08e30fa;Path=/;Domain=20170418155059search.azurewebsites.net
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 25 May 2017 10:05:19 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\"?><feed xmlns=\"http://www.w3.org/2005/Atom\"><title
+        type=\"text\"></title><id>uuid:05230c7b-ebe9-4914-8119-933785c86de5;id=2872</id><updated>2017-05-25T10:05:20Z</updated><author><name>parliament.uk</name></author><Query
+        role=\"request\" searchTerms=\"alert(document.cookie)\" totalResults=\"2990\"
+        count=\"10\" startIndex=\"1\" xmlns=\"http://a9.com/-/spec/opensearch/1.1/\"
+        /><totalResults xmlns=\"http://a9.com/-/spec/opensearch/1.1/\">2990</totalResults><startIndex
+        xmlns=\"http://a9.com/-/spec/opensearch/1.1/\">1</startIndex><entry><id>uuid:05230c7b-ebe9-4914-8119-933785c86de5;id=2873</id><title
+        type=\"html\">Government publications (Command Papers) - UK Parliament</title><summary
+        type=\"html\">Information about government publications or Command papers.</summary><updated>2017-05-25T10:05:20Z</updated><link
+        rel=\"alternate\" href=\"http://www.parliament.uk/about/how/publications/government/\"
+        /></entry><entry><id>uuid:05230c7b-ebe9-4914-8119-933785c86de5;id=2874</id><title
+        type=\"html\">The Commons Library and its research service - UK Parliament</title><summary
+        type=\"html\">News and &lt;b&gt;alerts&lt;/b&gt;. Subscribe to Library email
+        &lt;b&gt;alerts&lt;/b&gt; &amp;middot; Commons Library ... &lt;br&gt;\r\nCommons
+        ( PDF 16.66 MB) Opens in a new window. Commons Library &lt;br&gt;\r\n&lt;b&gt;document&lt;/b&gt;
+        25.</summary><updated>2017-05-25T10:05:20Z</updated><link rel=\"alternate\"
+        href=\"https://www.parliament.uk/commons-library\" /></entry><entry><id>uuid:05230c7b-ebe9-4914-8119-933785c86de5;id=2875</id><title
+        type=\"html\">Millennials - Commons Library briefing - UK Parliament</title><summary
+        type=\"html\">Apr 11, 2017 &lt;b&gt;...&lt;/b&gt; Millennials entered young
+        adulthood in the midst of the 2008 financial crisis. The &lt;br&gt;\r\nimpact
+        of this on their socio-economic outcomes as they have&amp;nbsp;...</summary><updated>2017-05-25T10:05:20Z</updated><link
+        rel=\"alternate\" href=\"http://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-7946\"
+        /></entry><entry><id>uuid:05230c7b-ebe9-4914-8119-933785c86de5;id=2876</id><title
+        type=\"html\">New Enterprise Allowance - Commons Library briefing - UK ...</title><summary
+        type=\"html\">Feb 8, 2017 &lt;b&gt;...&lt;/b&gt; The New Enterprise Allowance
+        (NEA) is available to individuals claiming &lt;br&gt;\r\nJobseeker&amp;#39;s
+        Allowance (JSA), Employment and Support Allowance&amp;nbsp;...</summary><updated>2017-05-25T10:05:20Z</updated><link
+        rel=\"alternate\" href=\"http://researchbriefings.parliament.uk/ResearchBriefing/Summary/SN05878\"
+        /></entry><entry><id>uuid:05230c7b-ebe9-4914-8119-933785c86de5;id=2877</id><title
+        type=\"html\">Open Access to Scientific Information - POST Note - UK Parliament</title><summary
+        type=\"html\">Jan 25, 2012 &lt;b&gt;...&lt;/b&gt; The internet has transformed
+        the nature of scientific research, opening up new &lt;br&gt;\r\nways to collect,
+        use and disseminate scientific information.</summary><updated>2017-05-25T10:05:20Z</updated><link
+        rel=\"alternate\" href=\"http://researchbriefings.parliament.uk/ResearchBriefing/Summary/POST-PN-397\"
+        /></entry><entry><id>uuid:05230c7b-ebe9-4914-8119-933785c86de5;id=2878</id><title
+        type=\"html\">HMRC should lead way in reform of International tax rules -
+        News ...</title><summary type=\"html\">Feb 24, 2016 &lt;b&gt;...&lt;/b&gt;
+        Accessibility &amp;middot; &lt;b&gt;Cookies&lt;/b&gt; &amp;middot; Email &lt;b&gt;alerts&lt;/b&gt;
+        &amp;middot; RSS feeds &amp;middot; Contact us .... a &lt;b&gt;document&lt;/b&gt;
+        &lt;br&gt;\r\nsetting out some further facts in relation to the settlement.</summary><updated>2017-05-25T10:05:20Z</updated><link
+        rel=\"alternate\" href=\"https://www.parliament.uk/business/committees/committees-a-z/commons-select/public-accounts-committee/news-parliament-2015/corporate-tax-deals-report-published-15-16/\"
+        /></entry><entry><id>uuid:05230c7b-ebe9-4914-8119-933785c86de5;id=2879</id><title
+        type=\"html\">20th Century Parliamentarians - UK Parliament</title><summary
+        type=\"html\">... of Lords have continued the tradition of commissioning group
+        portraits of the &lt;br&gt;\r\nHouse in session. These &lt;b&gt;document&lt;/b&gt;
+        successive memberships of both Houses.</summary><updated>2017-05-25T10:05:20Z</updated><link
+        rel=\"alternate\" href=\"http://www.parliament.uk/worksofart/collection-highlights/portraits/20th-century-parliamentarians\"
+        /></entry><entry><id>uuid:05230c7b-ebe9-4914-8119-933785c86de5;id=2880</id><title
+        type=\"html\">European Scrutiny Committee - UK Parliament</title><summary
+        type=\"html\">Accessibility &amp;middot; &lt;b&gt;Cookies&lt;/b&gt; &amp;middot;
+        Email &lt;b&gt;alerts&lt;/b&gt; &amp;middot; RSS feeds &amp;middot; Contact
+        us. Site search. Search &lt;br&gt;\r\n... Subscribe to email &lt;b&gt;alerts&lt;/b&gt;
+        for the European Scrutiny Committee. Email&amp;nbsp;...</summary><updated>2017-05-25T10:05:20Z</updated><link
+        rel=\"alternate\" href=\"http://www.parliament.uk/business/committees/committees-a-z/commons-select/european-scrutiny-committee/\"
+        /></entry><entry><id>uuid:05230c7b-ebe9-4914-8119-933785c86de5;id=2881</id><title
+        type=\"html\">Frozen Overseas Pensions - Commons Library briefing - UK ...</title><summary
+        type=\"html\">Apr 13, 2017 &lt;b&gt;...&lt;/b&gt; The UK State Pension is
+        payable overseas only uprated annually if the individual &lt;br&gt;\r\nis
+        resident in an EEA country or one with which the UK has a&amp;nbsp;...</summary><updated>2017-05-25T10:05:20Z</updated><link
+        rel=\"alternate\" href=\"http://researchbriefings.parliament.uk/ResearchBriefing/Summary/SN01457\"
+        /></entry><entry><id>uuid:05230c7b-ebe9-4914-8119-933785c86de5;id=2882</id><title
+        type=\"html\">Zero Carbon Homes - Commons Library briefing - UK Parliament</title><summary
+        type=\"html\">May 10, 2016 &lt;b&gt;...&lt;/b&gt; The Labour Government set
+        out the original plans for zero carbon homes in their &lt;br&gt;\r\nconsultation
+        &lt;b&gt;document&lt;/b&gt; Building a Greener Future in 2006.</summary><updated>2017-05-25T10:05:20Z</updated><link
+        rel=\"alternate\" href=\"http://researchbriefings.parliament.uk/ResearchBriefing/Summary/SN06678\"
+        /></entry></feed>"
+    http_version: 
+  recorded_at: Thu, 25 May 2017 10:05:20 GMT
+recorded_with: VCR 2.9.3

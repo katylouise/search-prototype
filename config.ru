@@ -1,4 +1,8 @@
-require 'rubygems'
+$LOAD_PATH.unshift File.join(__FILE__, '../lib')
 
-require './search'
-run Search
+require 'parliament/search'
+
+run Rack::URLMap.new(
+  '/' => Parliament::Search::Application,
+  '/search/' => Parliament::Search::Application
+)

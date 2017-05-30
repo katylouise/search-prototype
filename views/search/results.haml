@@ -26,18 +26,18 @@
     - if @results_total.to_i >= 1
       %nav.navigation--number{ aria:{ label: 'Pagination' } }
         - unless current_page == 1
-          %a.navigation-control--left{ href: "/search/results?q=#{@query_parameter}&start_page=#{start_page(previous_page)}" } Previous
+          %a.navigation-control--left{ href: "/search/?q=#{@query_parameter}&start_page=#{start_page(previous_page)}" } Previous
 
         - unless current_page == last_page
-          %a.navigation-control--right{ href: "/search/results?q=#{@query_parameter}&start_page=#{start_page(next_page)}" } Next
+          %a.navigation-control--right{ href: "/search/?q=#{@query_parameter}&start_page=#{start_page(next_page)}" } Next
 
         %ol
           - page_range.each do |page|
             %li{ class: ('active' if (page == current_page)), 'data-number': page }
               - unless page == current_page
-                %a{ href: "/search/results?q=#{@query_parameter}&start_page=#{start_page(page)}" }= page
+                %a{ href: "/search/?q=#{@query_parameter}&start_page=#{start_page(page)}" }= page
               - else
                 %span= current_page
     - else
       .highlight--box.highlight--caution__soft
-        %p= "There were no results for &ldquo;#{@query_parameter}&rdquo;."
+        %p= "There are no results for your search."

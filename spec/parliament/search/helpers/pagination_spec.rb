@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-RSpec.describe PaginationHelper do
+RSpec.describe Parliament::Search::Helpers::PaginationHelper do
   subject do
-    Class.new { include PaginationHelper }
+    Class.new { include Parliament::Search::Helpers::PaginationHelper }
   end
 
   before(:each) do
